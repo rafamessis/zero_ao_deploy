@@ -3,7 +3,7 @@ from flask import Flask, jsonify
 
 app = Flask('Gerenciador')
 
-tarefas = ['Rafael']
+tarefas = []
 
 
 @app.route('/tarefas')
